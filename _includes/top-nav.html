@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-lg top-nav" aria-label="main navigation">
+<!-- <nav class="navbar navbar-expand-lg top-nav sticky-top" aria-label="main navigation"> -->
+  <div class="nav-wrap container-fluid">
+    {% comment %}
+    <a class="navbar-brand" href="/">
+      <img class="nav-logo" src="{{ "assets/img/logo.png" | relative_url }}" alt="Site Logo | {{ site.title }}" height="50" width="106">
+    </a>    
+    {% endcomment %}
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topNav" aria-controls="topNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="topNav">
+      <ul class="nav navbar-nav mt-2 mt-lg-0">
+      {%- if site.data.navigation.header[0] -%}
+        {%- for item in site.data.navigation.header -%}
+          {%- if page.title == item.title -%}
+            <li class="nav-item"><a class="nav-link is-current-page" href="{{ item.url | absolute_url }}" aria-current="page">{{ item.title }}</a></li>
+          {% elsif item.title == "Home" %}
+            <li class="nav-item nav-home-link"><a class="nav-link is-current-page" href="{{ item.url | absolute_url }}" aria-current="page">{{ item.title }}</a></li>
+          {%- else -%}
+            <li class="nav-item"><a class="nav-link" href="{{ item.url | absolute_url }}">{{ item.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+
+      <li class="nav-item nav-social-icons">
+        <a href="{{ site.github_url }}" aria-label="GitHub link"><i class="fab fa-github first-icon"></i></a>
+        <a href="{{ site.twitter_url }}" aria-label="Twitter link"><i class="fab fa-twitter"></i></a>
+      </li>
+    </ul>
+    </div>
+
+  <div>
+</nav>
+

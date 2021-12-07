@@ -1,0 +1,13 @@
+<header class="site-header">
+  <div class="wrap">
+    <div class="title-area">
+      <p class="site-title"><a rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a></p>
+    </div>
+  </div>
+</header>
+
+{%- assign default_paths = site.pages | map: "path" -%}
+{%- assign page_paths = site.header_pages | default: default_paths -%}
+{%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+
+{% include top-nav.html %}

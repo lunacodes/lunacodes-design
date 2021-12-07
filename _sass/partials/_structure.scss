@@ -1,0 +1,34 @@
+body {
+  background-color: $greyf5;
+}
+
+img {
+  align-self: center;
+  object-fit: contain;
+  max-width: 100%;
+}
+
+.site-header,
+.page-content {
+  background: $white;
+}
+
+.title-area,
+.nav-wrap,
+.page-content {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+.title-area {
+  padding: 28px 12px 12px;
+}
+
+.page-content {
+  margin: 40px auto;
+  padding: 20px 40px;
+}
+
+.site-footer {
+  padding: 20px;
+}

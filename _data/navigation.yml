@@ -1,0 +1,19 @@
+header:
+  - title: About
+    url: /about
+  - title: Portfolio
+    url: /
+  - title: Contact
+    url: /contact
+  # - title: Specification
+  #   url: /specification
+  # - title: Governance
+  #   url: /governance
+  # - title: Implementations
+  #   url: /implementations
+  # - title: Ecosystem
+  #   url: /ecosystem
+  # - title: Projects
+  #   url: /projects
+  # - title: Users Gallery
+  #   url: /gallery

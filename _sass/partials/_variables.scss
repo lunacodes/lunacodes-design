@@ -1,0 +1,47 @@
+// Colors
+
+$black: #000;
+$greyc: #ccc;
+$greyd: #ddd;
+$grey3: #333;
+$grey5: #555;
+$greye8: #e8e8e8;
+$greyf1: #f1f1f1;
+$greyfa: #fafafa;
+$greyf5: #f5f5f5;
+$white: #fff;
+$red-dark: #a00;
+$box-rgba-3: rgba(0, 0, 0, 0.3);
+
+$twitter-blue: #08a0e9;
+
+$nav--item-margin: 0.5rem;
+$nav--item-padding: 0 1.25rem;
+
+// Override default bootstrap grid breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  xxs: 425px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  lg-2: 1024px,
+  xl: 1200px,
+  xl-13: 1330px,
+  xxl: 1400px
+);
+// scss-docs-end grid-breakpoints
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+// scss-docs-start container-max-widths
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+)
+// scss-docs-end container-max-widths
