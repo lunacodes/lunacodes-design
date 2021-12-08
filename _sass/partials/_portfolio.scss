@@ -1,7 +1,22 @@
-.portfolio-single {
+.portfolio-item {
+  align-items: center;
   box-shadow: 0 1px 3px $box-rgba-3;
   box-sizing: border-box;
-  margin: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 0;
+
+  .mask {
+    display: none;
+    opacity: 0.4;
+    overflow: visible;
+    position: absolute;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    z-index: 9999999999999;
+  }
 
   &:hover {
     background: $black;
@@ -9,26 +24,56 @@
     opacity: 1;
     z-index: 1000;
 
+    .portfolio-image {
+      opacity: 0.4;
+      transition: all 0.4s ease-in-out;
+    }
+
     .mask {
-      display: block;
+      display: flex;
+      flex-wrap: wrap;
       height: auto;
+      justify-content: center;
       opacity: 1;
       top: 91px;
       transition: all 0.2s ease-in-out;
-      width: 220px;
+      // width: 220px;
+      width: calc(100% - 20px);
       z-index: 2000;
     }
   }
 }
 
-.article-container {
+.portfolio-item-container {
   position: relative;
+  width: 33%;
   z-index: 1;
 }
 
-.entry-title {
-  font-size: 36px;
-  line-height: 1;
+.portfolio-item--description,
+.view-project {
+  background: $white;
+  color: $red-dark;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.portfolio-item--description {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  height: 44px;
+  justify-content: center;
+  line-height: 1.625;
+  margin: 0;
+  overflow: hidden;
+  padding: 10px;
+  position: absolute;
+  text-overflow: ellipsis;
+  top: -70px;
+  white-space: nowrap;
+  width: 100%;
 
   a {
     color: $grey3;
@@ -40,57 +85,14 @@
   }
 }
 
-.entry-title.desc,
 .view-project {
-  background: $white;
-  color: $red-dark;
   font-family: 'Glegoo', 'Helvetica', arial, serif;
   font-size: 14px;
   padding: 7px 14px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
 
-.entry-title.desc {
-  background: $white;
-  display: flex;
-  flex-wrap: wrap;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  height: 44px;
-  justify-content: center;
-  line-height: 1.625;
-  overflow: hidden;
-  padding: 10px;
-  position: absolute;
-  text-overflow: ellipsis;
-  top: -57px;
-  white-space: nowrap;
-  width: 220px;
-}
-
-.entry-title.portfolio-item-title {
-  display: block;
-  position: absolute;
-  top: 120px;
+  &:hover {
+    color: $black;
   }
-
-.portfolio-single .mask {
-  display: none;
-  height: 213px;
-  opacity: 0.4;
-  overflow: visible;
-  position: absolute;
-  text-align: center;
-  text-overflow: ellipsis;
-  top: 110px;
-  white-space: nowrap;
-  width: auto;
-  z-index: 9999999999999;
-}
-
-.mask:hover {
-  display: block;
 }
 
 .gallery-container {
@@ -99,38 +101,46 @@
   position: static;
 }
 
-.portfolio-single:hover .entry-image-link img {
-  opacity: 0.4;
-  transition: all 0.4s ease-in-out;
+.portfolio-image {
+  height: 100%;
+  width: 100%;
 }
 
-.center-text {
+.view-project-container {
   display: flex;
   justify-content: center;
-  margin: 7px auto 0;
+  margin: 20px auto 0;
 }
 
-
-.entry-title-link {
+.portfolio-item--description-link {
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .project-category {
+  color: $white;
   display: flex;
+  flex-basis: 100%;
   justify-content: center;
 
-  a {
+  .project-category-link {
     box-sizing: border-box;
     color: $white;
     font-family: Georgia, serif;
-    font-size: 12px;
+    font-size: 14px;
     font-style: italic;
+    line-height: 1.625;
     overflow: hidden;
     padding: 4px 10px;
     position: relative;
     text-align: center;
+    text-decoration: none;
     text-overflow: ellipsis;
     white-space: nowrap;
   }
+}
+
+.entry-title-link {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

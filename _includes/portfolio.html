@@ -1,0 +1,22 @@
+<div class="gallery-container">
+	{% assign projects = site.projects %}
+	{% for project in projects reversed %}
+	<div class="portfolio-item-container">
+		<article class="portfolio-item">
+			<a class="portoflio-image-link" href="{{ project.url }}" aria-hidden="true">
+				<img width="220" height="160" src="assets/img/{{ project.thumbnail }}" class="portfolio-image" alt="{{ project.title }} thumbnail">
+			</a>
+			<div class="mask">
+			  <h2 class="portfolio-item--description">
+			  	<a href="{{ project.url }}" class="entry-title-link" rel="bookmark" title="US Corr">{{ project.title }}</a>
+			  </h2>
+			  <span class="project-category">
+			  	<a class="project-category-link">{{ project.tag }}</a></span>
+			  	<span class="view-project-container">
+			  		<a href="{{ project.url }}" class="view-project">View Project</a>
+		  	</span>
+			</div>
+		</article>
+	</div>
+	{% endfor %}
+</div>
