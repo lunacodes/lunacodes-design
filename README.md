@@ -4,8 +4,10 @@ An in-progress port of my website from WordPress to Jekyll
 
 ## To-Do
 
-* Fix portfolio box sizing
+* ARIA Roles
 * Move project descriptions to top
 * Mobile styles for portfolio page
-* Contact Page - find solution for static site
-* Reduce image sizes on Projects pg
+* Mobile Nav
+* Contact Page
+* Reduce image sizes on Project single pages
+* Add redirects for old permalink structure
