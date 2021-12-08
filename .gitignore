@@ -4,3 +4,6 @@ _site
 .jekyll-metadata
 vendor
 _archive
+*_scratch*
+_config_local.yml
+_plugins/environment_variables.rb
