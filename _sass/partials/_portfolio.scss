@@ -1,99 +1,15 @@
+.portfolio-item-container {
+  margin: 20px;
+  width: 100%;
+}
+
 .portfolio-item {
-  align-items: center;
   box-shadow: 0 1px 3px $box-rgba-3;
-  box-sizing: border-box;
   display: flex;
-  justify-content: center;
-  margin: 14px;
-  overflow: hidden;
   padding: 0;
 
-  .mask {
-    display: none;
-    opacity: 0.4;
-    overflow: visible;
-    position: absolute;
-    text-align: center;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    z-index: 9999999999999;
-  }
-
   &:hover {
-    background: $black;
     box-shadow: 0 1px 3px $box-rgba-3;
-    opacity: 1;
-    z-index: 1000;
-
-    .portfolio-image {
-      opacity: 0.4;
-      transition: all 0.4s ease-in-out;
-    }
-
-    .mask {
-      display: flex;
-      flex-wrap: wrap;
-      height: auto;
-      justify-content: center;
-      opacity: 1;
-      top: 91px;
-      transition: all 0.2s ease-in-out;
-      width: calc(100% - 20px);
-      z-index: 2000;
-    }
-  }
-}
-
-.portfolio-item-container {
-  height: auto;
-  margin: 0;
-  position: relative;
-  width: 33%;
-  z-index: 1;
-}
-
-.portfolio-item--description,
-.view-project {
-  background: $white;
-  color: $red-dark;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-
-.portfolio-item--description {
-  display: flex;
-  flex-wrap: wrap;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  height: 44px;
-  justify-content: center;
-  line-height: 1.625;
-  margin: 0;
-  overflow: hidden;
-  padding: 10px;
-  position: absolute;
-  text-overflow: ellipsis;
-  top: -70px;
-  white-space: nowrap;
-  width: 100%;
-
-  a {
-    color: $grey3;
-    text-decoration: none;
-
-    &:hover {
-      color: $grey5;
-    }
-  }
-}
-
-.view-project {
-  font-family: 'Glegoo', 'Helvetica', arial, serif;
-  font-size: 14px;
-  padding: 7px 14px;
-
-  &:hover {
-    color: $black;
   }
 }
 
@@ -103,46 +19,24 @@
   position: static;
 }
 
-.portfolio-image {
-  height: 250px;
-  width: 100%;
+.portfolio-item--image {
+  height: auto;
+  object-fit: cover;
+  object-position: top left;
+  padding: 20px;
+  width: 400px;
 }
 
-.view-project-container {
-  display: flex;
-  justify-content: center;
-  margin: 20px auto 0;
+.portfolio-item--thumbnail {
+  min-width: 400px;
 }
 
-.portfolio-item--description-link {
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.project-category {
-  color: $white;
-  display: flex;
-  flex-basis: 100%;
-  justify-content: center;
-
-  .project-category-link {
-    box-sizing: border-box;
-    color: $white;
-    font-family: Georgia, serif;
-    font-size: 14px;
-    font-style: italic;
-    line-height: 1.625;
-    overflow: hidden;
-    padding: 4px 10px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+.portfolio-item--title {
+  a {
+    color: #000;
   }
 }
 
-.entry-title-link {
-  overflow: hidden;
-  text-overflow: ellipsis;
+.portfolio-item--description {
+  padding: 20px 20px 20px 40px;
 }

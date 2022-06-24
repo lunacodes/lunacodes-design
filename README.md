@@ -11,3 +11,4 @@ An in-progress port of my website from WordPress to Jekyll
 * Contact Page
 * Reduce image sizes on Project single pages
 * Add redirects for old permalink structure
+* Favicon

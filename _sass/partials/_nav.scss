@@ -1,6 +1,11 @@
 .top-nav {
   background: $grey3;
 
+  a {
+    color: $greyc;
+    text-transform: uppercase;
+  }
+
   .nav-link {
     color: $greyc;
     font-family: Lato, sans-serif;
@@ -74,3 +79,8 @@
     color: $white;
   }
 }
+
+#topNav {
+  justify-content: flex-end;
+}
+

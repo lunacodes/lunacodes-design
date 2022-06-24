@@ -11,8 +11,8 @@ body {
 
 img {
   align-self: center;
-  object-fit: contain;
   max-width: 100%;
+  object-fit: contain;
 }
 
 .site-header,
@@ -32,8 +32,8 @@ img {
 }
 
 .page-content {
-  margin: 40px auto;
-  padding: 20px 40px;
+  margin: 0 auto 40px;
+  padding: 40px 40px;
 }
 
 .site-footer {

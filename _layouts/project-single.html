@@ -2,25 +2,24 @@
 layout: default
 ---
 
-<article aria-label="{{ page.title }}">
-	<header class="entry-header"><h1>{{ page.title }} - <span class="project-h1-tagline">{{ page.tag }}</span></h1></header>
-	{% comment %}
-	<p class="entry-meta"><time class="entry-time"dateTime="{{ page.p_date }}">{{ page.p_date }}</time></p>
-	{% endcomment %}
+Project Single Template
 
-	<div class="entry-content">
-		<div class="project-container">
-			<div class="project-nav">
-				<!-- Blank?? -->
-			</div>
 
-			<div class="project-wrapper">
-				<div class="project-bg">
-					{{ content }}
-					<div class="prooject-footer">
-						<div class="project-desc">
-							<h2 class="project-info">Project Info</h2>
-						</div>
+<article class="project-single" aria-label="{{ page.title }}">
+	<header class="project-title--h1"><h1>{{ page.title }} - <span class="project-h1-tagline">{{ page.tag }}</span></h1></header>
+
+	<div class="project-container">
+		<div class="project-nav">
+			<!-- Blank?? -->
+		</div>
+
+		<div class="project-wrapper">
+			<div class="project-bg">
+				<div style="width: 50%;">{% include project-single.html %}</div>
+				{{ content }}
+				<div class="prooject-footer">
+					<div class="project-desc">
+						<h2 class="project-info">Project Info</h2>
 					</div>
 				</div>
 			</div>
