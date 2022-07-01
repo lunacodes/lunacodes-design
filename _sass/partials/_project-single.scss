@@ -1,6 +1,6 @@
 .project-single {
   .project-title--h1 {
-    margin: 0 0 1rem;
+    margin: 0 0 1.5rem;
   }
 
   .project-tagline {
@@ -8,57 +8,40 @@
   }
 
   .project-container {
-    background: $white;
-    border: 1px solid $greye8;
-    border-radius: 3px;
     font-family: 'Open Sans', sans-serif;
-    margin: 0 0 23px;
+    margin: 0 0 1.5rem;
   }
 
   .project-nav {
     background: $greyfa none repeat scroll 0% 0%;
-    padding: 15px;
+    display: none;
+    padding: 1rem;
   }
 
-  .project-wrapper {
-    background: $greyf1;
-    padding: 0 20px 30px;
+  .project-img-gallery {
+    display: grid;
+    grid-gap: 40px 30px;
+    grid-template-columns: repeat(2, 1fr);
+    overflow: hidden;
   }
 
-  .project-bg {
-    background: $greyfa none repeat scroll 0% 0%;
-  }
+  .project-img {
+    overflow: hidden;
 
-  .project-spacer {
-    background-color: $greyf5;
-    height: 50px;
+    img {
+      border: 2px solid #eee;
+      margin: 0 0 0.5rem;
+    }
   }
 
   .project-img-desc {
-    display: none;
+    font-size: 1.25rem;
     text-align: center;
-  }
-
-  .project-footer {
-    background: $greyfa;
-    border: $greyf1;
-    border-radius: 3px;
-    margin: -10px auto 0;
-    max-width: none;
-    padding: 0 7.1% 30px;
-  }
-
-  .project-info {
-    font-size: 18px;
-    font-weight: 400;
   }
 
   .project-desc {
     background: $white;
-    border: 1px solid $greye8;
-    border-radius: 3px;
-    font-size: 13px;
-    margin-top: 30px;
-    padding: 23px 30px;
+    font-size: 1rem;
+    margin: 0 0 2rem;
   }
 }

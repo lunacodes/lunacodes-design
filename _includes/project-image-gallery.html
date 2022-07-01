@@ -1,0 +1,13 @@
+<h2>Project Gallery</h2>
+<div class="project-img-gallery">
+	{% comment %}
+	{% for img in site.data.projects[page.img_sub_dir].images %}
+	{% endfor %}
+	{% endcomment %}
+	{% for image in page.images %}
+		<div class="project-img">
+			<a href="/assets/img/{{ page.img_sub_dir }}/{{ image.url }}"><img src="/assets/img/{{ page.img_sub_dir }}/{{ image.url }}" alt=""></a>
+			<p class="project-img-desc">{{ image.caption}}</p>
+		</div>
+	{% endfor %}
+</div>

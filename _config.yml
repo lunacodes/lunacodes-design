@@ -25,6 +25,7 @@ locale: en_US
 # google_site_verification:
 
 show_excerpts: false # set to true to show excerpts on the homepage
+excerpt_separator: <!--more-->
 
 kramdown:
   toc_levels: 2..3
@@ -34,7 +35,19 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-    sort_by: order
+    order:
+      - haSepharadi.md
+      - living-poetry.md
+      - us-corr.md
+      - eye-to-eye.md
+      - jess-dobkin.md
+      - jay-michaels.md
+      - laura-mcdonald.md
+      - wandering-cellist.md
+      - five-pillars.md
+      # - arvados.md
+      # - cwl.md
+      # - curii.md
 
 defaults:
   -

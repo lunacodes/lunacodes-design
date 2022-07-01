@@ -2,27 +2,22 @@
 layout: default
 ---
 
-Project Single Template
-
-
 <article class="project-single" aria-label="{{ page.title }}">
 	<header class="project-title--h1"><h1>{{ page.title }} - <span class="project-h1-tagline">{{ page.tag }}</span></h1></header>
 
 	<div class="project-container">
+		{% comment %}
 		<div class="project-nav">
 			<!-- Blank?? -->
 		</div>
+		{% endcomment %}
 
 		<div class="project-wrapper">
-			<div class="project-bg">
-				<div style="width: 50%;">{% include project-single.html %}</div>
-				{{ content }}
-				<div class="prooject-footer">
-					<div class="project-desc">
-						<h2 class="project-info">Project Info</h2>
-					</div>
-				</div>
+			<div class="project-desc">
+			  <h2 class="project-info">Project Highlights</h2>
+				{{ content | markdownify }}
 			</div>
+			{% include project-image-gallery.html %}
 		</div>
 	</div>
 </article>

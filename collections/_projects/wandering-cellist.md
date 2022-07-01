@@ -3,6 +3,8 @@ title: The Wandering Cellist
 thumbnail: cello-thumb.png
 tag: Web and Graphic Design
 img_sub_dir: cello
+images:
+  - wanderingcellist.png
 order: 2
 ---
 

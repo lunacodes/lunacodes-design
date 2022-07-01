@@ -3,7 +3,8 @@ title: Laura McDonald Health & Fitness
 thumbnail: lauramcd-thumb.png
 tag: Web Design and Development
 img_sub_dir: laura-mcdonald
-order: 3
+images:
+  - lauramcdonaldhealth.png
 description: Laura McDonald is a health & fitness coach in New York City. This design takes advantage of The Genesis Engine’s highly customizable widgets – allowing for complete design flexibility, as well as optimal mobile rendering
 ---
 
