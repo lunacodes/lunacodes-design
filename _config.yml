@@ -2,8 +2,7 @@ title: Luna Lunapiena - Web Developer
 author: Luna Lunapiena
 url: "lunacodesdesign.com"
 baseurl: ""
-author: "Luna Lunapiena"
-# email:             your-email@example.com
+email: luna@lunacodesdesign.com
 description: > # this means to ignore newlines until "show_excerpts:"
   Luna Lunapiena is a friendly and enthusiastic Web Developer, who works primarily with WordPress and Jekyll.
 
@@ -15,12 +14,13 @@ twitter_url: https://mobile.twitter.com/lunacodess
 # SEO - jekyll-seo-tag
 # logo: "/header.png"
 twitter:
-  - username: lunacodes
+  - username: lunacodess
   - card: summary
 social:
   name: Luna Lunapiena
   links:
-    - https://twitter.com/lunacodes
+    - https://twitter.com/lunacodess
+    - https://githuub.com/lunacodes
 locale: en_US
 # google_site_verification:
 
@@ -34,17 +34,18 @@ collections_dir: collections
 collections:
   projects:
     output: true
-    permalink: /projects/:name
+    permalink: /portfolio/:name
+    redirect_from: /projects/:name
     order:
       - haSepharadi.md
       - living-poetry.md
       - us-corr.md
       - eye-to-eye.md
       - jess-dobkin.md
+      - five-pillars.md
       - jay-michaels.md
       - laura-mcdonald.md
       - wandering-cellist.md
-      - five-pillars.md
       # - arvados.md
       # - cwl.md
       # - curii.md

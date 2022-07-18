@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article class="project-single" aria-label="{{ page.title }}">
+<article class="project-single-content" aria-label="{{ page.title }}">
 	<header class="project-title--h1"><h1>{{ page.title }} - <span class="project-h1-tagline">{{ page.tag }}</span></h1></header>
 
 	<div class="project-container">
@@ -14,7 +14,7 @@ layout: default
 
 		<div class="project-wrapper">
 			<div class="project-desc">
-			  <h2 class="project-info">Project Highlights</h2>
+			  <!-- <h2 class="project-info">Project Highlights</h2> -->
 				{{ content | markdownify }}
 			</div>
 			{% include project-image-gallery.html %}

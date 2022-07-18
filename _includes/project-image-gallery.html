@@ -1,13 +1,12 @@
 <h2>Project Gallery</h2>
-<div class="project-img-gallery">
-	{% comment %}
-	{% for img in site.data.projects[page.img_sub_dir].images %}
-	{% endfor %}
-	{% endcomment %}
+<div class="project-img-gallery {{ page.gallery_class }}">
 	{% for image in page.images %}
 		<div class="project-img">
-			<a href="/assets/img/{{ page.img_sub_dir }}/{{ image.url }}"><img src="/assets/img/{{ page.img_sub_dir }}/{{ image.url }}" alt=""></a>
-			<p class="project-img-desc">{{ image.caption}}</p>
+			<a href="/assets/img/{{ page.img_sub_dir }}/{{ image.url }}"><img class="{{ image.class }}" src="/assets/img/{{ page.img_sub_dir }}/{{ image.url }}" alt=""></a>
+			<div class="project-img-desc">
+				<h3>{{ image.title }}</h3>
+				<p>{{ image.caption }}</p>
+			</div>
 		</div>
 	{% endfor %}
 </div>

@@ -1,4 +1,4 @@
-.project-single {
+.project-single-content {
   .project-title--h1 {
     margin: 0 0 1.5rem;
   }
@@ -19,42 +19,63 @@
   }
 
   .project-img-gallery {
-    display: flex;
-    flex-flow: row wrap;
-    grid-gap: unset;
-    justify-content: space-between;
-    overflow: hidden;
+    @include media-breakpoint-up(lg) {
+      display: flex;
+      flex-flow: row wrap;
+      grid-gap: unset;
+      justify-content: space-between;
+      overflow: hidden;
+    }
+  }
+
+  .column-gallery {
+    .project-img {
+      flex-flow: column-reverse wrap;
+
+      h3 {
+        text-align: center;
+      }
+
+      img {
+        max-width: initial;
+        width: 100%;
+      }
+    }
   }
 
   .project-img {
-    overflow: hidden;
     border: 0;
-    height: auto;
-    margin: 0;
-    min-height: 450px;
-    width: 48%;
-    display: flex;
-    width: 100%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    margin: 22px auto;
+    padding: 22px;
+    overflow: hidden;
+
+    @include media-breakpoint-up(lg) {
+      display: flex;
+      height: auto;
+      width: 98%;
+    }
 
     img {
-      border: 2px solid rebeccapurple;
-      height: 100%;
-      margin: 0 auto;
+      margin: 22px auto;
       max-height: 400px;
-      max-width: 37vw;
-      object-position: top center;
-      width: 37vw;
+      width: 100%;
+
+      @include media-breakpoint-up(lg) {
+        height: 100%;
+        margin: 0 auto;
+        max-height: 400px;
+        max-width: 33vw;
+        object-position: top center;
+        width: 33vw;
+      }
     }
   }
 
   .project-img-desc {
     font-size: 1.25rem;
-    text-align: center;
-  }
-
-  .project-desc {
-    background: $white;
-    font-size: 1rem;
-    margin: 0 0 2rem;
+    margin: 0 0 1rem 1rem;
+    padding: 0 2rem 0 0;
+    text-align: left;
   }
 }
