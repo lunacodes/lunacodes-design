@@ -6,12 +6,12 @@
 	<div class="portfolio-item-container">
 		<article class="portfolio-item">
 			<div class="portfolio-item--thumbnail">
-				<a class="portoflio--item--image-link" href="{{ project.url }}" aria-hidden="true">
-					<img width="220" height="160" src="assets/img/{{ project.thumbnail }}" class="portfolio-item--image" alt="{{ project.title }} thumbnail">
+				<a class="portoflio--item--image-link" href="{{ project.url | relative_url }}" aria-hidden="true">
+					<img width="220" height="160" src="assets/img{{ project.thumbnail | relative_url }}" class="portfolio-item--image" alt="{{ project.title }} thumbnail">
 				</a>
 			</div>
 			<div class="portfolio-item--description">
-				<h2 class="portfolio-item--title"><a href="{{ project.url }}">{{project.title}}</a></h2>
+				<h2 class="portfolio-item--title"><a href="{{ project.url | relative_url }}">{{project.title}}</a></h2>
 				<p class="portfolio-item--meta">{{ project.tag }}</p>
 				<p class="portfolio-item--text">{{ project.description | truncatewords: 100 }}</p>
 			</div>

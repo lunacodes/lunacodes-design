@@ -2,7 +2,7 @@
 <div class="project-img-gallery {{ page.gallery_class }}">
 	{% for image in page.images %}
 		<div class="project-img">
-			<a href="/assets/img/{{ page.img_sub_dir }}/{{ image.url }}"><img class="{{ image.class }}" src="/assets/img/{{ page.img_sub_dir }}/{{ image.url }}" alt=""></a>
+			<a href="/assets/img/{{ page.img_sub_dir }}/{{ image.url | relative_url }}"><img class="{{ image.class }}" src="/assets/img/{{ page.img_sub_dir }}/{{ image.url | relative_url }}" alt=""></a>
 			<div class="project-img-desc">
 				<h3>{{ image.title }}</h3>
 				<p>{{ image.caption }}</p>

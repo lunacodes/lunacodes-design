@@ -1,7 +1,7 @@
 title: Luna Lunapiena - Web Developer
 author: Luna Lunapiena
 url: "lunacodesdesign.com"
-baseurl: ""
+# baseurl: "jekyll_test/"
 email: luna@lunacodesdesign.com
 description: > # this means to ignore newlines until "show_excerpts:"
   Luna Lunapiena is a friendly and enthusiastic Web Developer, who works primarily with WordPress and Jekyll.
@@ -30,12 +30,14 @@ excerpt_separator: <!--more-->
 kramdown:
   toc_levels: 2..3
 
+permalink: /:categories/:year/:month/:day/:title/
+
 collections_dir: collections
 collections:
   projects:
     output: true
-    permalink: /portfolio/:name
-    redirect_from: /projects/:name
+    permalink: /portfolio/:name/
+    redirect_from: /projects/:name/
     order:
       - haSepharadi.md
       - living-poetry.md
