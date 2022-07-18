@@ -84,3 +84,34 @@
   justify-content: flex-end;
 }
 
+.navbar-brand {
+  white-space: normal;
+  word-break: break-word;
+}
+
+.navbar-toggler {
+  margin: 0 10px 0 auto;
+  padding: 0.25rem 0.75rem 0.25rem 0px;
+
+  @include media-breakpoint-up(sm) {
+    padding: 0.25rem 0.75rem;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+  }
+
+  &:focus {
+    color: $greyc;
+  }
+}
+
+.navbar-toggler-icon {
+  background-image: escape-svg($navbar-dark-toggler-icon-bg);
+}
+
+.navbar-toggler-text {
+  color: $greyc;
+  margin: 0 0 0 4px;
+  position: relative;
+  top: 2px;
+}
