@@ -1,4 +1,5 @@
 _archive
+_bak
 _config_local.yml
 _plugins/environment_variables.rb
 _site

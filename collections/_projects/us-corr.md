@@ -1,6 +1,6 @@
 ---
 title: US Corrugated
-thumbnail: us-corr-thumb.png
+thumbnail: us-corr-thumb.jpg
 tag: Custom Theme Development
 p_date: 2016
 gallery_class: column-gallery

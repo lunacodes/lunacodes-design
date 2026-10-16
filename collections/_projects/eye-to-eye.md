@@ -1,6 +1,6 @@
 ---
 title: Eye to Eye
-thumbnail: eye-thumb.png
+thumbnail: eye-thumb.jpg
 tag: Landing Page and Email Development
 gallery_class: column-gallery
 img_sub_dir: eye-to-eye

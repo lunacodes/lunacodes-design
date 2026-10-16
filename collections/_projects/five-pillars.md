@@ -1,6 +1,6 @@
 ---
 title: Five Pillars Yoga
-thumbnail: fivepill-thumb.png
+thumbnail: fivepill-thumb.jpg
 tag: Design and Development
 gallery_class: column-gallery
 img_sub_dir: five-pillars

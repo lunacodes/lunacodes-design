@@ -1,6 +1,6 @@
 ---
 title: Jess Dobkin
-thumbnail: jdob-thumb.png
+thumbnail: jdob-thumb.jpg
 gallery_class: column-gallery
 tag: Template and Plugin Development
 img_sub_dir: jess-dobkin

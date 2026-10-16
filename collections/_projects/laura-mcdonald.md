@@ -1,6 +1,6 @@
 ---
 title: Laura McDonald Health & Fitness
-thumbnail: lauramcd-thumb.png
+thumbnail: lauramcd-thumb.jpg
 gallery_class: column-gallery
 tag: Web Design and Development
 img_sub_dir: laura-mcdonald

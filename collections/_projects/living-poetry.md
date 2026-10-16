@@ -1,6 +1,6 @@
 ---
 title: Living Poetry Project
-thumbnail: lvp-thumb.png
+thumbnail: lvp-thumb.jpg
 tag: Search, Database, and Media Development
 gallery_class: column-gallery
 img_sub_dir: living-poetry

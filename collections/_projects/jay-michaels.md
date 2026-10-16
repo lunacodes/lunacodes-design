@@ -1,6 +1,6 @@
 ---
 title: Jay Michaels Voice
-thumbnail: jay-thumb.png
+thumbnail: jay-thumb.jpg
 gallery_class: column-gallery
 tag: Custom Theme Development
 img_sub_dir: jay-michaels

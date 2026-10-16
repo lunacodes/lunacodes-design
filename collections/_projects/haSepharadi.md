@@ -1,6 +1,6 @@
 ---
 title: haSepharadi
-thumbnail: haseph-thumb.png
+thumbnail: haseph-thumb.jpg
 tag: Plugin, Theme, and Widget Development
 img_sub_dir: haseph
 images:

@@ -66,6 +66,8 @@ plugins:
   - jekyll-titles-from-headings
 
 exclude:
+  - assets/img/_bak/
+  - _bak/
   - _archive/
   - _scratch/
 
