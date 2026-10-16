@@ -16,7 +16,7 @@ A design revision and functional expansion of an existing custom WordPress Theme
 
 ## Project Highlights
 
-* Created a more effective & visually crisp front page that better highlighted the studio’s upcoming events & content.
-* Consolidated header graphics, created two and three-column layouts, and added icons for the footer links.
-* Created new custom post types and page templates, to allow for easier editing by the yoga studio
-* Custom templates and post types include: Press, Teachers, and Upcoming Events pages, and Workshop signup forms
+- Created a more effective & visually crisp front page that better highlighted the studio’s upcoming events & content.
+- Consolidated header graphics, created two and three-column layouts, and added icons for the footer links.
+- Created new custom post types and page templates, to allow for easier editing by the yoga studio
+- Custom templates and post types include: Press, Teachers, and Upcoming Events pages, and Workshop signup forms

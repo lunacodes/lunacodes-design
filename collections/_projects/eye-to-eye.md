@@ -23,15 +23,12 @@ description: In my work for Eye to Eye, I created a landing page for their newly
 
 Eye to Eye creates youth mentoring and advocacy programs for children with learning disabilities and ADHD. In my work for Eye to Eye, I created a landing page for their newly featured “Empower Different Learners” iOS App. I also developed HTML newsletters.
 
-
 Archive.org Link: [Eye to Eye (Mar. 2018)](https://web.archive.org/web/20180307025407/http://eyetoeyenational.org/)
 
 ## Project Highlights
 
-* Created a landing page for their newly featured “Empower Different Learners” iOS App, with a custom modal video player
-* Translated print-style design into functional website components
-* Developed periodic HTML email newsletters
-* Transformed Adobe Photoshop and InDesign mockups into responsive webpages
-* Collaborated the with design team by providing UX feedback, UI suggestions, mockups, and layouts
-
-
+- Created a landing page for their newly featured “Empower Different Learners” iOS App, with a custom modal video player
+- Translated print-style design into functional website components
+- Developed periodic HTML email newsletters
+- Transformed Adobe Photoshop and InDesign mockups into responsive webpages
+- Collaborated the with design team by providing UX feedback, UI suggestions, mockups, and layouts

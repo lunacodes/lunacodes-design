@@ -24,11 +24,10 @@ The work on this project was done for Jess Dobkin, a performing artist and curat
 
 ## Project Highlights
 
-* Transformed static portfolio pages into responsive templates with dynamic layouts
-* Created custom portfolio project sliders, utilizing the Master Slider jQuery API
-* Created custom portfolio project sliders, utilizing the Master Slider jQuery API
-* Eliminated technical debt, rewrote site components, and upgraded server to PHP 7
-* Main Portfolio page: transformed the two-column static layout into a responsive layout with flexible columns
-* Individual Portfolio pages: developed dynamic template to account for the different categories of content presented on each project's page
-* Tools & Frameworks: WordPress, Advanced Custom Fields, Master Slider Pro Javascript API
-
+- Transformed static portfolio pages into responsive templates with dynamic layouts
+- Created custom portfolio project sliders, utilizing the Master Slider jQuery API
+- Created custom portfolio project sliders, utilizing the Master Slider jQuery API
+- Eliminated technical debt, rewrote site components, and upgraded server to PHP 7
+- Main Portfolio page: transformed the two-column static layout into a responsive layout with flexible columns
+- Individual Portfolio pages: developed dynamic template to account for the different categories of content presented on each project's page
+- Tools & Frameworks: WordPress, Advanced Custom Fields, Master Slider Pro Javascript API

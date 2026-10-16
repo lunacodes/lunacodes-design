@@ -23,7 +23,7 @@ images:
     title: "Single Event Page"
     caption: "The full event details for a single event. Each listing includes a poster image, description, map, and other relevant details, pulled in from external sources. The events can be exported to other calendar feeds."
   # - url: zemannim-far.png
-    # caption: ""
+  # caption: ""
   - url: haSeph-footer-widgets.png
     title: "Footer Widgets"
     caption: "A set of widgets display recent posts, a call to get involved, a donation option, and a short mission statement."
@@ -39,8 +39,7 @@ A journal website for the Sephardic Jewish community and tradition. The site was
 
 ## Project highlights
 
-* Wrote the PHP, Javascript, and CSS from scratch
-* Developed widgets for Affiliate Links, Authors Box, and Zemannim (Jewish prayer times)
-* Utilized HTML5 Geolocation and Google Maps APIs to retrieve user’s location in widgets
-* Diagnosed technical issues, reduced load times, and implemented backups & upgrades
-
+- Wrote the PHP, Javascript, and CSS from scratch
+- Developed widgets for Affiliate Links, Authors Box, and Zemannim (Jewish prayer times)
+- Utilized HTML5 Geolocation and Google Maps APIs to retrieve user’s location in widgets
+- Diagnosed technical issues, reduced load times, and implemented backups & upgrades

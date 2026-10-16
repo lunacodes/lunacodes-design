@@ -26,9 +26,8 @@ description: A Corrugation company
 
 Tools & Frameworks Used:
 
-* WordPress
-* jQuery
-* Bootstrap
-* Photoshop
-* GIMP
-
+- WordPress
+- jQuery
+- Bootstrap
+- Photoshop
+- GIMP

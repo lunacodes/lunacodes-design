@@ -17,6 +17,6 @@ A database connecting composers and poets. Living Poetry Project is meant to eli
 
 ## Project Highlights
 
-* Designed database of poets and composers, using WP Taxonomies & CPT Metadata
-* Developed custom media uploader, to overcome WordPress’ audio and PDF limitations
-* Implemented automated backup and archival of user submissions
+- Designed database of poets and composers, using WP Taxonomies & CPT Metadata
+- Developed custom media uploader, to overcome WordPress’ audio and PDF limitations
+- Implemented automated backup and archival of user submissions
