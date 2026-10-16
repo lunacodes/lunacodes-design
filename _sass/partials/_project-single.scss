@@ -18,7 +18,7 @@
     padding: 1rem;
   }
 
-  .project-img-gallery {
+  .project-gallery {
     @include media-breakpoint-up(lg) {
       display: flex;
       flex-flow: row wrap;
@@ -29,7 +29,7 @@
   }
 
   .column-gallery {
-    .project-img {
+    .project-item {
       flex-flow: column-reverse wrap;
 
       h3 {
@@ -43,7 +43,7 @@
     }
   }
 
-  .project-img {
+  .project-item {
     border: 0;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
     margin: 22px auto;
@@ -51,7 +51,8 @@
     overflow: hidden;
 
     @include media-breakpoint-up(lg) {
-      display: flex;
+      display: grid;
+      grid-template-columns: 2fr 3fr;
       height: auto;
       width: 98%;
     }
@@ -65,9 +66,9 @@
         height: 100%;
         margin: 0 auto;
         max-height: 400px;
-        max-width: 33vw;
+        // max-width: 33vw;
         object-position: top center;
-        width: 33vw;
+        // width: auto;
       }
     }
   }

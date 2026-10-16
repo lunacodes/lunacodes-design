@@ -25,6 +25,10 @@ img {
 .page-content {
   margin: 0 auto;
   max-width: 1140px;
+
+  @include media-breakpoint-up(xxl16) {
+    max-width: 1400px;
+  }
 }
 
 .title-area {
