@@ -10,15 +10,8 @@ layout: default
   </header>
 
   <div class="project-container">
-    {% comment %}
-    <div class="project-nav">
-      <!-- Blank?? -->
-    </div>
-    {% endcomment %}
-
     <div class="project-wrapper">
       <div class="project-desc">
-        <!-- <h2 class="project-info">Project Highlights</h2> -->
         {{ content | markdownify }}
       </div>
       {% include project-image-gallery.html %}

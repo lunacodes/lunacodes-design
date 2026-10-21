@@ -1,20 +1,23 @@
 <h2>Project Gallery</h2>
 <div class="project-gallery {{ page.gallery_class }}">
-  {% for image in page.images %}
-  <div class="project-item">
-    <a
-      class="project-img-link"
-      href="/assets/img/{{ page.img_sub_dir }}/{{ image.url | relative_url }}"
-      ><img
-        class="{{ image.class }}"
-        id="{{ image.id }}"
-        src="/assets/img/{{ page.img_sub_dir }}/{{ image.url | relative_url }}"
-        alt=""
-    /></a>
-    <div class="project-img-desc">
-      <h3>{{ image.title }}</h3>
-      <p>{{ image.caption }}</p>
-    </div>
-  </div>
-  {% endfor %}
+    {% for image in page.images %}
+        <div class="project-item">
+            <a class="project-img-link" href="/assets/img/{{ page.img_sub_dir }}/{{ image.url | relative_url }}" >
+                <picture>
+                    {%- assign img_webp = image.url | remove: '.png' | remove: '.jpg' -%}
+                    <source srcset="/assets/img/{{ page.img_sub_dir }}/{{ img_webp }}.webp">
+                    <img
+                        class="{{ image.class }}"
+                        id="{{ image.id }}"
+                        src="/assets/img/{{ page.img_sub_dir }}{{ image.url | relative_url }}"
+                        alt="{{ image.title }}"
+                    />
+                </picture>
+            </a>
+            <div class="project-img-desc">
+                <h3>{{ image.title }}</h3>
+                <p>{{ image.caption }}</p>
+            </div>
+        </div>
+    {% endfor %}
 </div>
