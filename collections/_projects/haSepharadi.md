@@ -2,6 +2,7 @@
 title: haSepharadi
 thumbnail: haseph-thumb.jpg
 tag: Plugin, Theme, and Widget Development
+description: A journal website for the Sephardic Jewish tradition. I rebuilt the theme from scratch, and developed the zemannim and other widgets.
 img_sub_dir: haseph
 images:
   - url: haSeph-front-page.png
@@ -30,7 +31,6 @@ images:
   - url: haseph-voices-closeup-1.png
     title: "Authors Box"
     caption: "A selection of 6 authors from the articles on the site. The authors are chosen at random, upon page load, ensuring that all authors will be displayed at different times."
-description: A journal website for the Sephardic Jewish tradition. I rebuilt the theme from scratch, and developed the zemannim and other widgets.
 ---
 
 A journal website for the Sephardic Jewish community and tradition. The site was built with WordPress and the Genesis Framework. I developed all functional components of the website from scratch, and rendered the pre-existing design into actual live code

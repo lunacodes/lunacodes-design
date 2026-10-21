@@ -40,6 +40,9 @@ collections:
     redirect_from: /projects/:name/
     order:
       - haSepharadi.md
+      - cwl.md
+      - arvados.md
+      - curii.md
       - living-poetry.md
       - us-corr.md
       - eye-to-eye.md
